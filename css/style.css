@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Garamond&family=JetBrains+Mono:wght@400;700&family=Fira+Code:wght@400&display=swap");
+
+body {
+    font-family: "Garamond", serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #333333;
+    margin: 0;
+    padding: 10mm;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #003366;
+    border-bottom: 2px solid #fe6e47;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #4b0082;
+    border-bottom: 1px solid #4b0082;
+    page-break-before: always;
+}
+
+h3 {
+    font-size: 18pt;
+    color: #003366;
+}
+
+p {
+    margin: 0 0 1em 0;
+    text-align: justify;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff;
+}
+
+a:hover {
+    color: #4b0082;
+    text-decoration: underline;
+}
+
+pre,
+code {
+    font-family: "Fira Code", monospace;
+    font-size: 8pt;
+    background-color: #f5f5f5;
+    color: #000000;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+pre {
+    padding: 1em;
+    border-left: 3px solid #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    border: 1px solid #cccccc;
+}
+
+th,
+td {
+    padding: 0.75em;
+    border: 1px solid #cccccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #006400;
+    font-weight: 600;
+}
+
+figure {
+    margin: 1em 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 9pt;
+    color: #555555;
+    margin-top: 0.5em;
+}
+
+.toc {
+    background: none;
+    padding: 0;
+    border: none;
+    margin-bottom: 2em;
+}
+
+.toc a {
+    color: inherit !important; /* pour une raison obscure que j'ai dû mal à comprendre, l'inherited n'est pas effectif */
+    text-decoration: none;
+}
+
+.toc a:hover {
+    color: #4b0082;
+    text-decoration: underline;
+}
+
+.toc ul,
+.toc ol {
+    padding-left: 1em;
+    color: inherit;
+}
+
+.toc li {
+    margin-bottom: 0.5em;
+    color: inherit;
+}
+
+.footnotes {
+    color: #555555;
+    font-size: 9pt;
+}
+
+.footnotes hr {
+    display: none;
+}
+
+.footnotes ol {
+    padding-left: 1em;
+}
+
+.footnotes li {
+    margin-bottom: 0.5em;
+}
+
+.cover {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.cover h1 {
+    font-size: 24pt;
+    color: #fe6e47;
+    margin-bottom: 1em;
+}
+
+.cover h3 {
+    color: #fe6e47;
+    margin-top: 1.5em;
+}
+
+.cover p {
+    font-size: 12pt;
+    margin: 0.5em 0;
+}
+
+.cover img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 2em auto;
+}
+
+/* Ajustement pour l’affichage à l’écran (HTML) */
+@media screen {
+    body {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 2rem;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
+
+@media screen {
+    img {
+        max-width: 600px;
+    }
+}
+
+@media screen {
+    .cover img {
+        max-width: 300px;
+    }
+}

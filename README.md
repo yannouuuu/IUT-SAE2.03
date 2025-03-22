@@ -68,7 +68,7 @@ pandoc RapportSAE.md -o output/RapportSAE.pdf --pdf-engine=weasyprint --include-
 
 ### Remerciements
 
-Nous tenons à créditer **JEAN CARLE, SANTANA MAIA Deise et tous autre enseignant(-chercheur) ** pour la création des diaporamas de cours, des TP, TD et pour la réalisation des SAE. Leur travail a été précieux pour notre apprentissage.
+Nous tenons à créditer **JEAN CARLE, SANTANA MAIA Deise et tous autre enseignant(-chercheur)** pour la création des diaporamas de cours, des TP, TD et pour la réalisation des SAE. Leur travail a été précieux pour notre apprentissage.
 
 <br/>
 <p align="center">

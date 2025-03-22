@@ -25,7 +25,7 @@ services réseaux</h1>
 ## Procédures pour obtenir notre rapport
 
 > **ATTENTION**  
-> Le css et l'html doivent être dans le même dossier, sinon il faudra indiquer le chemin dans la commande
+> Le css et l'html doivent être dans leurs dossiers respectifs, sinon il faudra indiquer le chemin dans la commande
 
 ### En HTML
 

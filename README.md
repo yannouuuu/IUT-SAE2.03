@@ -57,6 +57,28 @@ pandoc RapportSAE.md -o output/RapportSAE.pdf --pdf-engine=weasyprint --include-
 -   `--pdf-engine=[...]` <br>
     Indique quel moteur utiliser pour générer le PDF (WeasyPrint, Xelatex, ...)
 
+## Structure du rapport
+
+```plaintext
+IUT-SAE2.03/
+├── README.md                     # Instructions et présentation du projet
+├── RapportSAE.md                 # Contenu principal du rapport
+├── cover/
+│   └── cover.html                # Page de couverture pour le rapport
+├── css/
+│   └── style.css                 # Styles pour le rapport généré
+├── output/
+│   └── RapportSAE.html           # Rapport généré en HTML
+│   └── RapportSAE.pdf            # Rapport généré en PDF
+├── shots/                        # Dossier contenant les captures d'écran
+│   ├── debra.png
+│   ├── gitea1.png
+│   ├── gitea2.png
+│   └── ...
+└── test/
+    └── RapportSAE.css            # Fichier CSS alternatif de tests effectués en amont
+```
+
 ## To-Do List
 
 -   [x] Mettre les images dans un répertoire dédié
